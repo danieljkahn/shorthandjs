@@ -12,7 +12,15 @@ var height = window.innerHeight
 || document.body.clientHeight;
 
 // on doc ready
-
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}    
 // on resize
 
 /// Utility functions to add/remove css classes and mimick jquery's hide/show functions
