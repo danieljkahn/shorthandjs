@@ -21,7 +21,8 @@ function docReady(fn) {
         document.addEventListener("DOMContentLoaded", fn);
     }
 }    
-// on resize
+// on viewport resize
+
 
 /// Utility functions to add/remove css classes and mimick jquery's hide/show functions
 
