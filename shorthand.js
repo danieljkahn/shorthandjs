@@ -9,7 +9,7 @@ var width = window.innerWidth
 var height = window.innerHeight
 || document.documentElement.clientHeight
 || document.body.clientHeight;
-
+// test
 // on doc ready
 function docReady(fn) {
     // see if DOM is already available
