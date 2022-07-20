@@ -1,4 +1,4 @@
-var _ = document.querySelectorAll.bind(document);
+let _el = document.querySelectorAll.bind(document);
 
 // window / doc width
 var width = window.innerWidth
@@ -6,7 +6,6 @@ var width = window.innerWidth
 || document.body.clientWidth;
 
 // window / doc height
-
 var height = window.innerHeight
 || document.documentElement.clientHeight
 || document.body.clientHeight;
@@ -45,4 +44,9 @@ NodeList.prototype.click = function(fn) {
     return this;
 }
 
-
+// NodeList.prototype.find = function(selector) {
+//     this.forEach(n => {
+//         n.querySelectorAll(selector);
+//     });
+//     return this;
+// }

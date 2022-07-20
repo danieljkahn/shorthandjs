@@ -18,3 +18,6 @@ $('#my-element').click(function(){
     console.log('pretty straightforward');
 })
 ```
+
+## Misc notes
+- jquery temporarily included in repo for reference
