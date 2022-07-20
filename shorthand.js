@@ -43,7 +43,7 @@ NodeList.prototype.click = function(fn) {
     })
     return this;
 }
-
+//test
 // NodeList.prototype.find = function(selector) {
 //     this.forEach(n => {
 //         n.querySelectorAll(selector);
