@@ -9,7 +9,7 @@ var width = window.innerWidth
 var height = window.innerHeight
 || document.documentElement.clientHeight
 || document.body.clientHeight;
-// test
+
 // on doc ready
 function docReady(fn) {
     // see if DOM is already available
@@ -43,7 +43,7 @@ NodeList.prototype.click = function(fn) {
     })
     return this;
 }
-//test
+
 // NodeList.prototype.find = function(selector) {
 //     this.forEach(n => {
 //         n.querySelectorAll(selector);
