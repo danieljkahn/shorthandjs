@@ -1,4 +1,4 @@
-let _el = document.querySelectorAll.bind(document);
+let $el = document.querySelectorAll.bind(document);
 
 // window / doc width
 var width = window.innerWidth
